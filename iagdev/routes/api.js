@@ -3,6 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/helloworld', function(req, res, next) {
+  res.setHeader('content-type', 'application/json');
   res.send('{"message":"helloworld"}');
 });
 router.post('/helloworld', function(req, res, next) {
