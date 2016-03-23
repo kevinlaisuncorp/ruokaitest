@@ -1,5 +1,6 @@
 {
   "environment" : "Dev",
+  "port" : 3000,
   "Customer": {
     "dbConfig": {
       "host": "localhost",
